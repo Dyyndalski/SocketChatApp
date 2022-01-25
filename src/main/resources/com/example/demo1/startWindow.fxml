@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="startWindowId" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.StartWindowController">
+   <children>
+      <Text layoutX="294.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CHAT APPLICATION" wrappingWidth="363.13671875">
+         <font>
+            <Font name="Jokerman" size="31.0" />
+         </font></Text>
+      <TextField id="inputNickField" fx:id="inputNickField" layoutX="369.0" layoutY="224.0" onInputMethodTextChanged="#onInputNickField" prefHeight="39.0" prefWidth="213.0" promptText="give your nick..">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+      <Button id="submitNickBtn" fx:id="submitNickBtn" layoutX="420.0" layoutY="274.0" mnemonicParsing="false" onMouseClicked="#onSubmitNick" text="START CHAT">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

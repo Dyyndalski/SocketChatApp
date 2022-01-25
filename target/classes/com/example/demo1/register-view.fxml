@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="600" prefWidth="900" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.RegisterWindows">
+   <children>
+      <TextField id="login" fx:id="onInputLogin" layoutX="314.0" layoutY="172.0" onInputMethodTextChanged="#onInputLogin" promptText="login" />
+      <Text layoutX="269.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="REGISTRATION" wrappingWidth="363.13671875">
+         <font>
+            <Font name="Jokerman" size="31.0" />
+         </font>
+      </Text>
+      <Text layoutX="366.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login">
+         <font>
+            <Font name="Times New Roman" size="19.0" />
+         </font>
+      </Text>
+      <Text layoutX="352.0" layoutY="317.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+         <font>
+            <Font name="Times New Roman" size="19.0" />
+         </font>
+      </Text>
+      <TextField id="password" fx:id="onInputPass" layoutX="314.0" layoutY="267.0" onInputMethodTextChanged="#onInputPass" promptText="password" />
+      <Text layoutX="234.0" layoutY="356.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="309.0" />
+      <Button fx:id="onClickRegister" layoutX="359.0" layoutY="359.0" mnemonicParsing="false" onMouseClicked="#OnClickRegister" text="Register" />
+   </children>
+</AnchorPane>
